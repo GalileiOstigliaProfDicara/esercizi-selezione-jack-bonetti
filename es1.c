@@ -11,7 +11,7 @@ int main(){
         printf("Il primo numero %d è maggiore del secondo %d.\n", num1, num2);
     
     } else {
-        printf("Il primo numero %d non è maggiore del secondo %d.\n", num1, num2);
+        printf("Il primo numero %d è minore o uguale al secondo %d.\n", num1, num2);
     }
 
     return 0;
