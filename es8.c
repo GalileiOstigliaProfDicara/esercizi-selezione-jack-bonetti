@@ -18,5 +18,6 @@ int main(){
     } else{
     printf("le lunghezze %f, %f e %f non possono formare un triangolo, l1, l2, l3");
     }
+
     return 0;
 }
