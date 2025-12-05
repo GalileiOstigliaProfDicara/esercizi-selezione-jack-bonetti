@@ -9,17 +9,19 @@ Kelvin = Celsius + 273,15*/
 
 int main(){
     float temp_celsius, temp_kelvin, temp_fahrenheit;
-    printf("inserisci la temperatura in celsius:")
-    scanf("%f", temp_celsius);
+    printf("inserisci la temperatura in celsius:");
+    scanf("%f", &temp_celsius);
     
-    if(temp_celsius < -273,15);
-    printf("errore!"){
+    if(temp_celsius < -273,15){
+    printf("errore!");
+
     } else {
     temp_kelvin = temp_celsius + 273,15;
-    temp fahrenheit = (9/5) * trmp_celsius + 32;
+    temp_fahrenheit = (9/5) * temp_celsius + 32;
 
     printf("la temperatura in kelvin è %f\n, temp_kelvin");
     printf("la temperatura in fahrenheit è %f\n, temp_fahrenheit");
+    }
 
     return 0;
 }
