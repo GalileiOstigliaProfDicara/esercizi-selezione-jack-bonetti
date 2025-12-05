@@ -19,7 +19,8 @@ int main(){
     }
     return 0;
     
-    /*se volessimo scrivere l'if tutto assieme scriveremmo:
+    }
+     /*se volessimo scrivere l'if tutto assieme scriveremmo:
     if(anno%4 == 0 && anno%100 !=0 || anno%400 == 0)
     immagina che && sia il + e || sia il *(per. */
 
@@ -28,5 +29,4 @@ int main(){
         printf("L'anno è bisestile.");
     } else {
         printf("L'anno non è bisestile."); */
-    }
 }
